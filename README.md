@@ -1,6 +1,6 @@
 # AgroTrack
 
-A fullstack agricultural logistics platform connecting Farmers, Buyers, Aggregators, and Admins in Nigeria — from produce dispatch to delivery.
+A fullstack agricultural logistics platform connecting Farmers, Buyers, Aggregators, and Admins in Nigeria, from produce dispatch to delivery.
 
 ## Features
 
