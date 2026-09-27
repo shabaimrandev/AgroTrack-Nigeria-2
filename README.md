@@ -16,13 +16,13 @@ A fullstack agricultural logistics platform connecting Farmers, Buyers, Aggregat
 ## Tech Stack
 
 - **Frontend**: Next.js
-- **Backend**: Express + TypeScript, Prisma ORM, Postgres DB
+- **Backend**: Node, Express + TypeScript, Prisma ORM, Postgres DB
 - **Auth**: Phone/OTP + JWT (httpOnly cookies), edge middleware route guard
 - **Storage**: Cloudinary
 
 ## OTP Delivery — Development Note
 
-OTPs are currently generated and logged to the console in development, so i can grab the code directly from there while testing rather than needing live SMS delivery. I'm working on integrating **SendChamp** for real SMS delivery in production — chosen over Termii because it works out more cost-effective for SMS in my region (Nigeria).
+OTPs are generated and logged to the console in development rather than sent via live SMS. Production SMS delivery via **SendChamp** is in progress, chosen over alternatives like Termii for better regional cost-efficiency in Nigeria.
 
 ## Status
 
